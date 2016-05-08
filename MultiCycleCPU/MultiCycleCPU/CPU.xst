@@ -1,0 +1,5 @@
+set -tmpdir "E:/Study/Computer Organization and Design/MultiCycleCPU/xst/projnav.tmp"
+set -xsthdpdir "E:/Study/Computer Organization and Design/MultiCycleCPU/xst"
+elaborate
+-ifn CPU.prj
+-ifmt mixed

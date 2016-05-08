@@ -1,0 +1,13 @@
+MO CU NULL CU.v vlg24/_c_u.bin 1462671572
+MO CPU NULL CPU.v vlg70/_c_p_u.bin 1462671572
+MO displace NULL displace.v vlg0D/displace.bin 1462671572
+MO selector_4_5bit NULL selector_4_5bit.v vlg77/selector__4__5bit.bin 1462671572
+MO selector_4_32bit NULL selector_4_32bit.v vlg0F/selector__4__32bit.bin 1462671572
+MO PC NULL PC.v vlg53/_p_c.bin 1462671572
+MO instructionMemory NULL instructionMemory.v vlg03/instruction_memory.bin 1462671572
+MO memory NULL memory.v vlg69/memory.bin 1462671572
+MO extend NULL extend.v vlg6C/extend.bin 1462671572
+MO combine NULL combine.v vlg39/combine.bin 1462671572
+MO register NULL register.v vlg29/register.bin 1462671572
+MO dataReg NULL dataReg.v vlg0C/data_reg.bin 1462671572
+MO ALU NULL ALU.v vlg2A/_a_l_u.bin 1462671572
