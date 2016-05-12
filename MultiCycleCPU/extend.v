@@ -23,12 +23,12 @@ module extend(
 	input [1:0]	Selection,
    output reg [31:0] DataOut
    );
-	always @(Selection) begin
+	always @(Selection or DataIn) begin
 		if (Selection == 0)
 			DataOut = {{27{1'b0}}, DataIn[15:11]};
 		else if (Selection == 1)
 			DataOut = {{16{1'b0}}, DataIn[15:0]};
-		else if (Selection == 1)
+		else if (Selection == 2)
 			DataOut = {{16{DataIn[15]}}, DataIn[15:0]};
 	end
 endmodule

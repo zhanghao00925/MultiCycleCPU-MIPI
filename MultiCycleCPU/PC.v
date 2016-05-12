@@ -29,8 +29,8 @@ module PC(
 	initial begin
 		DataOut = 0;
 	end
-	always @(negedge CLK) begin
-		if (RST == 0)
+	always @(negedge CLK or posedge RST) begin
+		if (RST == 1)
 			DataOut = DataInB;
 		else begin
 			if (WE == 1) begin

@@ -30,7 +30,7 @@ module ALU(
 		case (Operation)
 			3'b000:Result = DataA + DataB;
 			3'b001:Result = DataA - DataB;
-			3'b010:Result = (DataA < DataA) ? 1:0;
+			3'b010:Result = (DataA < DataB) ? 1:0;
 			3'b011:Result = DataA >> DataB;
 			3'b100:Result = DataA << DataB;
 			3'b101:Result = DataA | DataB;

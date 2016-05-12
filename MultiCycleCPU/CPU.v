@@ -42,10 +42,10 @@ module CPU(
 	parameter unable = 0;
 	
 	wire PCWre;
-	wire ALUSrcB;
-	wire ALUM2Reg;
+	wire [1:0]ALUSrcB;
+	wire [1:0]ALUM2Reg;
 	wire RegWre;
-	wire WrRegData;
+	wire [1:0]WrRegData;
 	wire InsMemRW;
 	wire DataMemRW;
 	wire IRWre;
@@ -80,7 +80,7 @@ module CPU(
 		.CLK(CLK),
 		.RST(RST),
 		.Zero(zero),
-		.Code(code),
+		.Code(code[31:26]),
 		.PCWre(PCWre),
 		.ALUSrcB(ALUSrcB),
 		.ALUM2Reg(ALUM2Reg),
@@ -194,6 +194,7 @@ module CPU(
 		.DataIn(PC1),
 		.DataOut(PC2)
 	);
+	wire [31:0] ALUInputB;
 	selector_4_32bit ALUInputMux(
 		.DataA(bDataReg),
 		.DataB(extendData),
@@ -212,18 +213,18 @@ module CPU(
 	dataReg ALUout(
 		.WE(enable),
 		.CLK(CLK),
-		.DataIn(ALUResule),
+		.DataIn(ALUResult),
 		.DataOut(ALUOutReg)
 	);
 	memory _memory(	
 		.CLK(CLK),
 		.RW(DataMemRW),
-		.Addr(ALUoutReg),
+		.Addr(ALUOutReg),
 		.DataIn(bDataReg),
 		.DataOut(memoryOut)
 	);
 	selector_4_32bit ALUWriteMux(
-		.DataA(ALUOutReg),
+		.DataA(ALUResult),
 		.DataB(memoryOut),
 		.DataC(unable),
 		.DataD(unable),

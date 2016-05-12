@@ -24,10 +24,10 @@ module CU(
 	input Zero,
 	input [5:0] Code,
 	output reg PCWre,
-	output reg ALUSrcB,
-	output reg ALUM2Reg,
+	output reg [1:0] ALUSrcB,
+	output reg [1:0] ALUM2Reg,
 	output reg RegWre,
-	output reg WrRegData,
+	output reg [1:0] WrRegData,
 	output reg InsMemRW,
 	output reg DataMemRW,
 	output reg IRWre,
@@ -133,13 +133,15 @@ module CU(
 					default: ExtSel = 2;
 				endcase
 				case (Code)
-					HALT: PCWre = unable;
-					default: PCWre = enable;
+					J: PCWre = enable;
+					JAL: PCWre = enable;
+					JR: PCWre = enable;
+					default: PCWre = unable;
 				endcase
 				IRWre = unable;
 				case (Code)
-					JAL: WrRegData = unable;
-					default: WrRegData = enable;
+					JAL: WrRegData = 0;
+					default: WrRegData = 1;
 				endcase
 				case (Code)
 					JAL: RegOut = 0;
@@ -169,12 +171,12 @@ module CU(
 					default: PCSrc = 0;
 				endcase
 				case (Code)
-					ADDI: ALUSrcB = enable;
-					ORI: ALUSrcB = enable;
-					LW: ALUSrcB = enable;
-					SW: ALUSrcB = enable;
-					SLL: ALUSrcB = enable;
-					default ALUSrcB = unable;
+					ADDI: ALUSrcB = 1;
+					ORI: ALUSrcB = 1;
+					LW: ALUSrcB = 1;
+					SW: ALUSrcB = 1;
+					SLL: ALUSrcB = 1;
+					default ALUSrcB = 0;
 				endcase
 				case (Code)
 					LW: ALUM2Reg = enable;
@@ -182,8 +184,10 @@ module CU(
 				endcase
 			end
 			EXE1: begin
+			PCWre = enable;
 			end
 			EXE2: begin
+				PCWre = enable;
 				case(Zero)
 					enable: begin
 						PCSrc = 1;
@@ -193,16 +197,22 @@ module CU(
 				endcase
 			end
 			EXE3: begin
+				PCWre = enable;
 			end
 			MEM: begin
-				DataMemRW = enable;
+				PCWre = unable;
+				case(Code)
+					SW:DataMemRW = enable;
+					default:DataMemRW = unable;
+				endcase
 			end
 			WB1: begin
-				WrRegData = enable;
+				PCWre = unable;
+				RegWre = enable;
 			end
 			WB2: begin
 				DataMemRW = unable;
-				WrRegData = enable;
+				RegWre = enable;
 			end
 		endcase
 	end

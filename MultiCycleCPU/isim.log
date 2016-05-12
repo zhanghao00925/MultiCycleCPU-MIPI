@@ -1,0 +1,748 @@
+ISim log file
+Running: E:\Study\Computer Organization and Design\MultiCycleCPU\CPUTest_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest_isim_beh.wdb 
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance uut/ALUPlus4/, width 3 of formal port Operation is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ALUPlusPC/, width 3 of formal port Operation is not equal to width 32 of actual constant.
+WARNING:  For instance uut/writeRegMux/, width 5 of formal port DataA is not equal to width 32 of actual constant.
+WARNING:  For instance uut/writeRegMux/, width 5 of formal port DataD is not equal to width 32 of actual constant.
+WARNING: File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 58.  For instance uut/writeRegMux/, width 5 of formal port DataOut is not equal to width 6 of actual signal writeReg.
+WARNING: File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 58.  For instance uut/_register/, width 5 of formal port WriteReg is not equal to width 6 of actual signal writeReg.
+WARNING:  For instance uut/ADR/, width 1 of formal port WE is not equal to width 32 of actual constant.
+WARNING:  For instance uut/BDR/, width 1 of formal port WE is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ALUout/, width 1 of formal port WE is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ALUM2DR/, width 1 of formal port WE is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Stopped at time : 0 ps :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 51 
+# run all
+Finished circuit initialization process.
+Stopped at time : 500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance uut/ALUPlus4/, width 3 of formal port Operation is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ALUPlusPC/, width 3 of formal port Operation is not equal to width 32 of actual constant.
+WARNING:  For instance uut/writeRegMux/, width 5 of formal port DataA is not equal to width 32 of actual constant.
+WARNING:  For instance uut/writeRegMux/, width 5 of formal port DataD is not equal to width 32 of actual constant.
+WARNING: File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 58.  For instance uut/writeRegMux/, width 5 of formal port DataOut is not equal to width 6 of actual signal writeReg.
+WARNING: File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 58.  For instance uut/_register/, width 5 of formal port WriteReg is not equal to width 6 of actual signal writeReg.
+WARNING:  For instance uut/ADR/, width 1 of formal port WE is not equal to width 32 of actual constant.
+WARNING:  For instance uut/BDR/, width 1 of formal port WE is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ALUout/, width 1 of formal port WE is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ALUM2DR/, width 1 of formal port WE is not equal to width 32 of actual constant.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Stopped at time : 0 ps :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 51 
+# run all
+Finished circuit initialization process.
+Stopped at time : 500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance uut/ALUPlus4/, width 3 of formal port Operation is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ALUPlusPC/, width 3 of formal port Operation is not equal to width 32 of actual constant.
+WARNING:  For instance uut/writeRegMux/, width 5 of formal port DataA is not equal to width 32 of actual constant.
+WARNING:  For instance uut/writeRegMux/, width 5 of formal port DataD is not equal to width 32 of actual constant.
+WARNING: File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 58.  For instance uut/writeRegMux/, width 5 of formal port DataOut is not equal to width 6 of actual signal writeReg.
+WARNING: File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 58.  For instance uut/_register/, width 5 of formal port WriteReg is not equal to width 6 of actual signal writeReg.
+WARNING:  For instance uut/ADR/, width 1 of formal port WE is not equal to width 32 of actual constant.
+WARNING:  For instance uut/BDR/, width 1 of formal port WE is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ALUout/, width 1 of formal port WE is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ALUM2DR/, width 1 of formal port WE is not equal to width 32 of actual constant.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Stopped at time : 0 ps :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 51 
+# run all
+Finished circuit initialization process.
+Stopped at time : 500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 10100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 10300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance uut/ALUPlus4/, width 3 of formal port Operation is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ALUPlusPC/, width 3 of formal port Operation is not equal to width 32 of actual constant.
+WARNING:  For instance uut/writeRegMux/, width 5 of formal port DataA is not equal to width 32 of actual constant.
+WARNING:  For instance uut/writeRegMux/, width 5 of formal port DataD is not equal to width 32 of actual constant.
+WARNING: File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 58.  For instance uut/writeRegMux/, width 5 of formal port DataOut is not equal to width 6 of actual signal writeReg.
+WARNING: File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 58.  For instance uut/_register/, width 5 of formal port WriteReg is not equal to width 6 of actual signal writeReg.
+WARNING:  For instance uut/ADR/, width 1 of formal port WE is not equal to width 32 of actual constant.
+WARNING:  For instance uut/BDR/, width 1 of formal port WE is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ALUout/, width 1 of formal port WE is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ALUM2DR/, width 1 of formal port WE is not equal to width 32 of actual constant.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Stopped at time : 0 ps :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 51 
+# run all
+Finished circuit initialization process.
+Stopped at time : 500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 10100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 10300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 10500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 10700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 10900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 11100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 11300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 11500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 11700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 11900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 12100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 12300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 12500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 12700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 12900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 13100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 13300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 13500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 13700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 13900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 14100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 14300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 14500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 14700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 14900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 15100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 15300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 15500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 15700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 15900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 16100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 16300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+# run all
+# run all
+# run all
+# run all
+# run all
+# run all
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance uut/ALUPlus4/, width 3 of formal port Operation is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ALUPlusPC/, width 3 of formal port Operation is not equal to width 32 of actual constant.
+WARNING:  For instance uut/writeRegMux/, width 5 of formal port DataA is not equal to width 32 of actual constant.
+WARNING:  For instance uut/writeRegMux/, width 5 of formal port DataD is not equal to width 32 of actual constant.
+WARNING: File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 58.  For instance uut/writeRegMux/, width 5 of formal port DataOut is not equal to width 6 of actual signal writeReg.
+WARNING: File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 58.  For instance uut/_register/, width 5 of formal port WriteReg is not equal to width 6 of actual signal writeReg.
+WARNING:  For instance uut/ADR/, width 1 of formal port WE is not equal to width 32 of actual constant.
+WARNING:  For instance uut/BDR/, width 1 of formal port WE is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ALUout/, width 1 of formal port WE is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ALUM2DR/, width 1 of formal port WE is not equal to width 32 of actual constant.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Stopped at time : 0 ps :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 51 
+# run all
+Finished circuit initialization process.
+Stopped at time : 500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 1900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 2900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 3900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 4900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 5900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 6900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 7900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 8900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 9900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 10100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 10300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 10500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 10700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 10900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 11100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 11300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 11500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 11700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 11900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 12100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 12300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 12500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 12700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 12900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 13100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 13300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 13500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 13700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 13900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 14100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 14300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 14500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 14700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 14900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 15100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 15300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 15500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 15700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 15900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 16100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 16300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 16500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 16700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 16900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 17100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 17300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 17500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 17700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 17900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 18100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 18300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 18500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 18700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 18900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 19100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 19300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 19500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 19700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 19900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 20100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 20300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 20500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 20700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 20900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 21100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 21300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 21500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 21700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 21900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 22100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 22300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 22500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 22700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 22900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 23100 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 23300 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 23500 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 23700 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 
+# run all
+Stopped at time : 23900 ns :  in File "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" Line 65 

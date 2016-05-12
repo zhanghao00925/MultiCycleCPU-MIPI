@@ -23,7 +23,7 @@ module selector_4_32bit(
    input [31:0] DataB,
 	input [31:0] DataC,
 	input [31:0] DataD,
-	input Selection,
+	input [1:0] Selection,
    output reg [31:0] DataOut
    );
 	always @(Selection or DataA or DataB or DataC or DataD) begin

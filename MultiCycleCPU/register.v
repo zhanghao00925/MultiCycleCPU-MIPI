@@ -38,8 +38,8 @@ module register(
 		for (i = 0; i < 32; i = i + 1)
 			mem[i] = 0;
 	end
-	always @(posedge CLK or negedge CLR) begin
-		if (CLR == 0) begin // reset
+	always @(negedge CLK or negedge CLR) begin
+		if (CLR == 1) begin // reset
 			for (i = 1; i < 32; i = i + 1) begin
 				mem[i] = 0;
 			end

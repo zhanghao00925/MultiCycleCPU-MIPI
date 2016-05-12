@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest_isim_beh.exe" -prj "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest_beh.prj" "work.CPUTest" "work.glbl" 

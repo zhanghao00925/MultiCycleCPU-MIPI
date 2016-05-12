@@ -36,7 +36,7 @@ module memory(
 		for (i = 0; i < 1024; i = i + 1)
 			mem[i] = 0;
 	end
-	always @(posedge CLK) begin
+	always @(negedge CLK) begin
 		if (RW == 1) begin// write
 		mem[Addr] = DataIn[7:0];
 		mem[Addr+1] = DataIn[15:8];

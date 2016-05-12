@@ -1,0 +1,41 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest_isim_beh.exe" -prj "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest_beh.prj" "work.CPUTest" "work.glbl" 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" into library work
+Analyzing Verilog file "E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 115: Size mismatch in connection of port <Operation>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 168: Size mismatch in connection of port <WE>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 174: Size mismatch in connection of port <WE>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 214: Size mismatch in connection of port <WE>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 235: Size mismatch in connection of port <WE>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 108: Size mismatch in connection of port <Operation>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 141: Size mismatch in connection of port <DataA>. Formal port size is 5-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 144: Size mismatch in connection of port <DataD>. Formal port size is 5-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 146: Size mismatch in connection of port <DataOut>. Formal port size is 5-bit while actual signal size is 6-bit.
+WARNING:HDLCompiler:189 - "E:/Study/Computer Organization and Design/MultiCycleCPU/CPU.v" Line 159: Size mismatch in connection of port <WriteReg>. Formal port size is 5-bit while actual signal size is 6-bit.
+Completed static elaboration
+Compiling module CU
+Compiling module PC
+Compiling module ALU
+Compiling module selector_4_32bit
+Compiling module instructionMemory
+Compiling module dataReg
+Compiling module selector_4_5bit
+Compiling module register
+Compiling module extend
+Compiling module displace
+Compiling module combine
+Compiling module memory
+Compiling module CPU
+Compiling module CPUTest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 15 Verilog Units
+Built simulation executable E:/Study/Computer Organization and Design/MultiCycleCPU/CPUTest_isim_beh.exe
+Fuse Memory Usage: 29424 KB
+Fuse CPU Usage: 531 ms
